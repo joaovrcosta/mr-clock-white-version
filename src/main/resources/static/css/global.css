@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.containerHeader h1 {
+    font-family: Rubik;
+    color: var(--black900);
+}
+
+.navContainer ul li a {
+    font-family: Rubik;
+    text-transform: uppercase;
+    color: var(--black900);
+  }
+  
+  .navContainer ul li a:hover {
+      color: #3ab7d6;
+      cursor: pointer;
+  }
+  
+  :root {
+    --background: #FBFBFB;
+    --aqua: #00DBE9;
+    --blue: #5429cc;
+    --green: #33cc95;
+    --map-color:#d1ffe9;
+    --title-color: #342b2b;
+    --blue400: #92b9e5;
+
+    --text-body: #969cb3;
+    --form-color: #ffffff;
+    --gray200: #f3f3f3;
+    --black-background: #1b1b1b98;
+
+    --black800: #2B2B2B;
+    --black900: #1b1b1b;
+
+    --white: #ffffff;
+    --paragraph-color: #000000
+}
+
+.dark-mode:root {
+    --background: #2B2B2B;
+    --aqua: #07c1ce;
+    --map-color:#414141;
+    --title-color: #ffffff;
+    --text-body: #969cb3;
+    --paragraph-color: #ffffff;
+}
