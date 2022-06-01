@@ -85,13 +85,13 @@
   height: 12px;
 }
 
-.testim .dots .dot {
+/* .testim .dots .dot {
   list-style-type: none;
   display: inline-block;
   width: 12px;
   height: 12px;
   border-radius: 50%;
-  border: 1px solid rgb(0, 0, 0);
+  border: var(--paragraph);
   margin: 0 10px;
   cursor: pointer;
   -webkit-transition: all 0.5s ease-in-out;
@@ -105,8 +105,8 @@
 .testim .dots .dot.active,
 .testim .dots .dot:hover {
   background: #000000;
-  border-color: #000000;
-}
+  border-color: var(--paragraph);
+} */
 
 .testim .dots .dot.active {
   -webkit-animation: testim-scale 0.5s ease-in-out forwards;
@@ -147,7 +147,7 @@
 }
 
 .testim .cont div h2 {
-  color: #000000;
+  color: var(--paragraph);
   font-size: 1em;
   margin: 15px 0;
   font-family: Inter;
@@ -157,7 +157,7 @@
 
 .testim .cont div p {
   font-size: 1.15em;
-  color: rgb(0, 0, 0);
+  color: var(--paragraph);
   width: 80%;
   margin: auto;
 }
@@ -607,8 +607,8 @@
 .button-purshace {
     height: 40px;
     width: 336px;
-    background-color: black;
-    color: white;
+    background-color: var(--buttonInit);
+    color: var(--aqua);
     margin-top: 2rem;
     border-radius: 32px;
     cursor: pointer;

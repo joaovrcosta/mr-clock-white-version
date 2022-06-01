@@ -84,6 +84,7 @@ li {
 
 .table-exibe td{
 	border-style: none;
+  border-top: 1px solid #000;
 }
 
 .table-exibe th, td{

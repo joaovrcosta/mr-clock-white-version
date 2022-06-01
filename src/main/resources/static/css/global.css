@@ -6,35 +6,29 @@
     box-sizing: border-box;
 }
 
-.containerHeader h1 {
-    font-family: Rubik;
-    color: var(--black900);
+.navContainer ul li a {
+    text-transform: uppercase;
 }
 
-.navContainer ul li a {
-    font-family: Rubik;
-    text-transform: uppercase;
-    color: var(--black900);
-  }
-  
-  .navContainer ul li a:hover {
-      color: #3ab7d6;
-      cursor: pointer;
-  }
+
   
   :root {
     --background: #FBFBFB;
-    --aqua: #00DBE9;
+    --paragraph: #1b1b1b;
+    --aqua: #ffffff;
     --blue: #5429cc;
-    --green: #33cc95;
+    --green: #c4cecb;
     --map-color:#d1ffe9;
     --title-color: #342b2b;
-    --blue400: #92b9e5;
+    --blue400: #0072b4;
+    --buttonInit: #000;
+    --buttonInner: #fff
+    
 
     --text-body: #969cb3;
     --form-color: #ffffff;
-    --gray200: #f3f3f3;
-    --black-background: #1b1b1b98;
+    --gray200: #e2e8f0;
+    --black-background: #1b1b1b94;
 
     --black800: #2B2B2B;
     --black900: #1b1b1b;
@@ -45,9 +39,14 @@
 
 .dark-mode:root {
     --background: #2B2B2B;
-    --aqua: #07c1ce;
+    --aqua: #181818;
     --map-color:#414141;
     --title-color: #ffffff;
     --text-body: #969cb3;
     --paragraph-color: #ffffff;
+    --black-background: #1b1b1b;
+    --paragraph: #fff;
+    --buttonInit: rgb(255, 255, 255);
+    --buttonInner: #000
+
 }
