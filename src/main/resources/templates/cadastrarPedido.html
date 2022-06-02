@@ -10,12 +10,17 @@
     <script type="text/javascript">
         function consulta() {
             window.open("/sig/pedidos");
+            
         }
     </script>
     <title>Cadastrar Pedido</title>
 </head>
 
 <body>
+    <div class="topHeader">
+        <label>Contraste</label>
+        <input id="btn" name="btn" type="checkbox">
+    </div>
     <header>
         <div class="containerHeader">
             <h1>Mr.Clock</h1>
@@ -54,12 +59,11 @@
                     <input
                     class="consult" 
                     type="submit" 
-                    th:href="@{/sig/pedidos}"
-                    value="Consultar pedido">
+                    value="Consultar pedido" onclick=consulta()>
                 </div>
             </form>
         </div>
     </div>
 </body>
-
+<script src="/js/contraste.js"></script>
 </html>

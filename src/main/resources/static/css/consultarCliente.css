@@ -1,5 +1,21 @@
 body {
-    background-color: #FAFAFA;
+    background-color: var(--background);
+}
+
+.topHeader {
+  background-color: rgb(32, 32, 36);
+}
+
+.topHeader label {
+ color: white
+}
+
+.containerHeader h1 {
+  font-family: Rubik;
+}
+
+.navContainer ul li a {
+  font-family: Rubik;
 }
 
 h1 {
@@ -84,7 +100,7 @@ li {
 
 .table-exibe td{
 	border-style: none;
-  border-top: 1px solid #000;
+  border-top: 1px solid var(--background);
 }
 
 .table-exibe th, td{
@@ -94,14 +110,15 @@ li {
 
 .table-exibe th {
 	font-size: 16px;
-	color: #1b1b1b;
-	background-color: #FAFAFA;
+	color: var(--title-blue);
+	background-color: var(--background);
     font-family: Inter;
 }
 
 .table-exibe td {
 	font-size: 12pt;
-	background-color: #fafafa
+	background-color: var(--background);
+  color: var(--title-color)
 }
 
 .btn-exibe {
@@ -123,7 +140,7 @@ li {
     border: none;
     height: 40px;
     width: 70px;
-    background-color: rgb(26, 26, 26);
+    background-color: var(--btn-delete);
     color: white;
     cursor: pointer;
     border-radius: 8px;
@@ -147,7 +164,7 @@ li {
         justify-content: center;
         font-family: Inter;
         font-weight: 200;
-        color: rgb(0, 0, 0);
+        color: var(--title-color);
         padding: 20px 0 20px 0;
         font-size: 28px;
 }

@@ -20,9 +20,12 @@
     --green: #c4cecb;
     --map-color:#d1ffe9;
     --title-color: #342b2b;
-    --blue400: #0072b4;
+    --blue400: #40b9ff;
     --buttonInit: #000;
-    --buttonInner: #fff
+    --buttonInner: #fff;
+    --styleHeader: #fff;
+    --title-blue: #000000;
+    --btn-delete: rgb(26, 26, 26);
     
 
     --text-body: #969cb3;
@@ -34,11 +37,13 @@
     --black900: #1b1b1b;
 
     --white: #ffffff;
-    --paragraph-color: #000000
+    --paragraph-color: #000000;
+
+    --text-input: #1b1b1b;
 }
 
 .dark-mode:root {
-    --background: #2B2B2B;
+    --background: #121214;
     --aqua: #181818;
     --map-color:#414141;
     --title-color: #ffffff;
@@ -47,6 +52,15 @@
     --black-background: #1b1b1b;
     --paragraph: #fff;
     --buttonInit: rgb(255, 255, 255);
-    --buttonInner: #000
+    --buttonInner: #000;
+    --blue400: rgb(32, 32, 36);
+    --form-color: #202024;
+    --black900: #f0f0f0;
+    --gray200: #121214;
+    --text-input: #e6e6e6;
+    --styleHeader: #fff;
+    --title-blue: #40b9ff;
+    --btn-delete: rgb(255, 45, 45);
+    
 
 }

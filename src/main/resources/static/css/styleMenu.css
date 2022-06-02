@@ -32,13 +32,13 @@ h1 {
 
 .containerHeader h1 {
   font-family: Rubik;
-  color: var(--gray200);
+  color: var(--styleHeader);
 }
 
 .navContainer ul li a {
   font-family: Rubik;
   text-transform: uppercase;
-  color: var(--gray200);
+  color: var(--styleHeader);
 }
 
 .navContainer ul li a:hover {

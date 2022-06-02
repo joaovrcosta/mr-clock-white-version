@@ -3,6 +3,15 @@
 body {
     background-color: var(--background)
 }
+
+.containerHeader h1 {
+    font-family: Rubik;
+}
+
+.navContainer ul li a {
+    font-family: Rubik;
+}
+
 .wrapper {
     display: flex;
     height: 100vh;
@@ -50,6 +59,15 @@ body {
     margin: 18px 0;
 }
 
+.topHeader {
+    background-color: rgb(32, 32, 36);
+}
+
+.topHeader label {
+   color: white
+}
+
+
 form .card-box input {
     height: 100%;
     width: 100%;
@@ -62,8 +80,9 @@ form .card-box input {
     font-weight: 400;
     font-family: Inter;
     background-color: var(--gray200);
-    color: #fff;
+    color: var(--text-input)
 }
+
 
 form .button input {
     height: 40px;
